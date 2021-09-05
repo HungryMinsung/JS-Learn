@@ -1,0 +1,97 @@
+
+       #main{
+        position:absolute;
+        top:50%;
+        left:50%;
+        margin-left:-275px;
+        margin-top:-385px;
+        height:400px;
+     }
+
+     h1{
+         font-size:5rem;
+         text-align:center;
+         margin-bottom:50px;
+         
+     }
+
+     #searcharea{
+         border: 1.5px solid #e6e6e7;
+         width:560px;
+         height:42px;
+         border-radius:20px 20px;
+         box-shadow: 1px 1px 6px rgb(220, 220, 220);
+     } 
+
+     #search{
+         border:none;
+         margin-top:3px;
+         margin-left: 10px;
+         width: 410px;
+         height :33px;
+     }
+     #button{
+          margin-left:100px;
+          border: none;
+          height :30px;
+          background-color:white;
+      }
+
+      h1 span:nth-child(1){
+          color:#4285f4;
+
+      }
+
+      h1 span:nth-child(2){
+          color:#ea4335;
+      }
+
+      h1 span:nth-child(3){
+         color:#fbbc05;
+      }
+
+      h1 span:nth-child(4){
+          color:#4285f4;
+      }
+
+      h1 span:nth-child(5){
+          color:#34a853;
+      }
+
+      h1 span:nth-child(6){
+          color:#ea4335;
+      }
+      #button{
+          border: none;
+      }
+      .fa-search{
+          margin-left: 15px;
+          margin-top: 10px;
+          color : grey;
+          height: 10px;
+      }
+      .fa-microphone{
+          color : rgb(66,133,244);
+          margin-left: 60px;
+      }
+      .user{
+          margin-left: 10px;
+      }
+      .menu{
+          display: flex;
+          margin-left: 1250px;
+          color : grey;
+          margin-top: 7px;
+          margin-right: 10px;
+          margin-left: 1270px;
+      }
+      #headBar{
+          display: flex;
+          margin-left: 550px;
+      }
+      .word{
+          color : grey;
+          display: flex;
+          margin-left: -180px;
+          margin-top: -16px;
+      }
