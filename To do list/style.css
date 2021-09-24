@@ -1,0 +1,16 @@
+.hidden {
+  display: none;
+}
+.backImage {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+.asd {
+  position: absolute;
+  z-index: 99;
+}
