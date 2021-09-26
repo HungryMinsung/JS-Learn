@@ -2,23 +2,14 @@
   display: none;
 }
 
-.background {
-  margin: 0 auto;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 .background-cover {
   margin: 0 auto;
   position: absolute;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
-
 body {
   /*font-family: 'BMJUA';*/
   margin: 0 auto;
@@ -73,7 +64,7 @@ input[type="text"]:focus {
   z-index: 2;
   text-align: center;
   font-size: 25px;
-  color: whitesmoke;
+  color: white;
   opacity: 60%;
 }
 
@@ -89,7 +80,6 @@ input[type="text"]:focus {
   opacity: 60%;
 }
 #greeting {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   position: absolute;
   top: 40%;
   left: 50%;
@@ -133,4 +123,12 @@ input[type="text"]:focus {
   font-size: 15px;
   color: whitesmoke;
   opacity: 60%;
+}
+.backImage {
+  margin: 0 auto;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
