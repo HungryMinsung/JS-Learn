@@ -18,6 +18,9 @@ body {
 ul {
   list-style: none;
 }
+il {
+  text-align: justify;
+}
 
 input[type="text"] {
   width: 150px;
@@ -52,20 +55,19 @@ input[type="text"]:focus {
   text-align: center;
   font-size: 15px;
   color: whitesmoke;
-  opacity: 60%;
+  opacity: 70%;
 }
 
 #todo-list {
   /*white-space: nowrap;*/
   position: absolute;
-  top: 90%;
-  left: 90%;
-  transform: translate(-50%, -50%);
+  left: 50%;
+  margin-left: -150px;
   z-index: 2;
   text-align: center;
   font-size: 25px;
   color: white;
-  opacity: 60%;
+  white-space: nowrap;
 }
 
 #login-form {
@@ -77,7 +79,7 @@ input[type="text"]:focus {
   text-align: center;
   font-size: 15px;
   color: whitesmoke;
-  opacity: 60%;
+  opacity: 30%;
 }
 #greeting {
   position: absolute;
