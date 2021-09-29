@@ -11,17 +11,15 @@
   z-index: 1;
 }
 body {
-  /*font-family: 'BMJUA';*/
   margin: 0 auto;
 }
 
 ul {
   list-style: none;
 }
-il {
-  text-align: justify;
+.span-list:last-child() {
+  justify-content: flex-start;
 }
-
 input[type="text"] {
   width: 150px;
   height: 25px;
@@ -34,16 +32,6 @@ input[type="text"]:focus {
   height: 25px;
   border: 3px solid whitesmoke;
   border-radius: 5px;
-}
-
-.button-name {
-  border: none;
-  background-color: rgba(0, 0, 0, 0);
-}
-
-.button-name:hover {
-  border: none;
-  background-color: rgba(0, 0, 0, 0.6);
 }
 
 #todo-form {
@@ -79,7 +67,11 @@ input[type="text"]:focus {
   text-align: center;
   font-size: 15px;
   color: whitesmoke;
-  opacity: 30%;
+  opacity: 75%;
+}
+.login-text {
+  border: none;
+  background: transparent;
 }
 #greeting {
   position: absolute;
@@ -116,6 +108,8 @@ input[type="text"]:focus {
   opacity: 60%;
 }
 .weather-font {
+  border: 2px solid whitesmoke;
+  border-radius: 25px;
   position: absolute;
   top: 10%;
   left: 90%;
@@ -124,7 +118,7 @@ input[type="text"]:focus {
   text-align: center;
   font-size: 15px;
   color: whitesmoke;
-  opacity: 60%;
+  opacity: 70%;
 }
 .backImage {
   margin: 0 auto;
@@ -133,4 +127,7 @@ input[type="text"]:focus {
   height: 100%;
   background-repeat: no-repeat;
   background-size: cover;
+}
+.submit-form {
+  display: none;
 }

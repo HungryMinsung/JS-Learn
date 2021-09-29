@@ -2,31 +2,44 @@
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
+    <title>TODOLSIT</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-        <h2 id = "clock" class="clock-font" >00:00:00</h2>
+        <h2 id="clock" class="clock-font">00:00:00</h2>
         <form class="hidden" id="login-form">
-            <input
-            required
-            maxlength="15"
-            type="text"
-            placeholder="What is your name?"/>
-            <input type="submit" value="Log In" class="submit-form"/>
+            <div class="login-text">
+                <input
+                required
+                maxlength="15"
+                type="text"
+                placeholder="What is your name?"/>
+            </div>
+            <input type="submit" value="Log In" class="hidden"/>
         </form>
         <h1 class="hidden" id="greeting"></h1>
         <form id="todo-form">
-            <input type="text" 
+            <input type="text" class=""
             placeholder="Write a To Do and Press Enter"
             required/>
         </form>
-       <form id="todo-form"><ul id="todo-list"></ul></form>
+        <form id="todo-form">
+            <div class="ul-list">
+                <ul id="todo-list" class="span-list"></ul>
+            </div>
+        </form>
         <div id="quote" class="quote-font">
+            <div>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        <div id="weather" class="weather-font">
+            <span></span>
             <span></span>
             <span></span>
         </div>
-    <div class="background-cover"></div>
+    <class class="background-cover"></class>
     <script src="clock.js"></script>
     <script src="greetings.js"></script>
     <script src="quotes.js"></script>

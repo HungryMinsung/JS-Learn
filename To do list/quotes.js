@@ -45,7 +45,6 @@ const quote = document.querySelector("#quote span:first-child");
 const author = document.querySelector("#quote span:last-child");
 
 const todaysQuote = quotes[Math.floor(Math.random() * quotes.length)];
-//0~9까지 array의 길이를 정해주는 램던함수
 
 quote.innerText = todaysQuote.quote; 
 author.innerText = todaysQuote.author;
