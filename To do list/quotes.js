@@ -41,10 +41,19 @@ const quotes = [
     },
 ];
 
+
 const quote = document.querySelector("#quote span:first-child");
 const author = document.querySelector("#quote span:last-child");
 
 const todaysQuote = quotes[Math.floor(Math.random() * quotes.length)];
 
-quote.innerText = todaysQuote.quote; 
-author.innerText = todaysQuote.author;
+function onMousequote(event){
+    author.innerText = todaysQuote.author;
+}
+function outMousequote(event){
+    author.innerText = '';
+}
+quote.addEventListener("mousemove",onMousequote);
+quote.addEventListener("mouseleave", outMousequote);
+
+quote.innerText = todaysQuote.quote;
