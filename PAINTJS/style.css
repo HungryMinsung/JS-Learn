@@ -36,7 +36,7 @@ body {
 .controls_btns button {
   all: unset;
   cursor: pointer;
-  background-color: white;
+  background-color: whitesmoke;
   padding: 5px 0px;
   width: 80px;
   text-align: center;
